@@ -1,0 +1,20 @@
+h1 {
+    background-color: aqua;
+}
+p{
+    background-color: red;
+}
+h2{
+    background-color: blue;
+}
+p{
+    background-color: blueviolet;
+}
+#p2{
+    background-color: brown;
+}
+.stilo{
+    background-color: chartreuse;
+    height: 200px;
+    width: 600px;
+}
