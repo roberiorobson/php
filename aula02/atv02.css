@@ -1,0 +1,27 @@
+#div1{
+    background-color: red;
+    height: 170px;
+    width: 1100px;
+    text-align: center;
+    color: white;
+    padding-top: 100px;
+    font-size: 70px;
+}
+#div2{
+    background-color: yellow;
+    height: 170px;
+    width: 1100px;
+
+}
+#div3{
+    background-color: black;
+    height: 170px;
+    width: 1100px;
+
+}
+#div4{
+    background-color: green;
+    height: 170px;
+    width: 1100px;
+
+}
