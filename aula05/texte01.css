@@ -1,0 +1,41 @@
+html,body{
+    font-family: sans-serif;
+    background-color: white;
+    color: black;
+}
+p{
+   background-color: brown;
+}
+.top{
+    background-color: rgb(0, 255, 115);
+    height: 150px;
+    width: auto;
+    margin-top: 30px;
+    border: 2px solid red; 
+    color: red;
+    text-align: center;
+}
+.conteudo{
+    background-color: yellow;
+    height: 420px;
+    width: auto;
+    margin-top: 3px;
+    border: 2px solid red; 
+    padding-left: 10px;
+}
+.top p {
+    background-color: rgb(255, 255, 255);
+    margin: 70px 570px;
+    font-size: 30px;
+}
+#p-ne{
+    background-color: purple;
+    width: 30%;
+    right: 600px;
+}
+#p-descrição{
+    background-color: lightskyblue;
+    margin: auto 400px
+}
+
+
