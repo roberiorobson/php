@@ -1,0 +1,45 @@
+body{
+    background-color: black;
+    margin: 15px;
+}
+.box{
+    background-color: white;
+    height: 600px;
+    border: solid 10px rgb(255, 0, 0);
+    display: grid;
+    grid-template-areas: "titulo titulo titulo"
+                          "lateral meio lateralD";
+                          
+    grid-template-rows: 200px 1fr;   
+    grid-template-columns: 200px 1fr 200px;                                        
+}
+.titulo{
+     background-color: blue;
+     grid-area: titulo;
+}
+p{
+    text-align: center;
+    font-size: 50px;
+    background-color: gray;
+    
+}
+.titulo img{ 
+     height: 100px;
+     width: 200px;
+    
+}
+
+
+.LQ{
+    background-color: yellow;
+    grid-area: lateral;
+
+}
+.meio{
+    background-color: aqua;
+    grid-area: meio;
+}
+.LD{
+    background-color: green;
+    grid-area: lateralD;
+}

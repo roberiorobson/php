@@ -1,0 +1,28 @@
+body{
+    background-color: black;
+    margin: 15px;
+}
+.box{
+    background-color: white;
+    height: 600px;
+    border: solid 10px rgb(255, 0, 0);
+    display: grid;
+    grid-template-areas: "titulo titulo"
+                          "lateral meio";
+                          
+    grid-template-rows: 100px 1fr ;   
+    grid-template-columns: 100px 1fr ;                                        
+}
+.titulo{
+     background-color: blue;
+     grid-area: titulo;
+}
+.LD{
+    background-color: yellow;
+    grid-area: lateral;
+
+}
+.meio{
+    background-color: aqua;
+    grid-area: meio;
+}
