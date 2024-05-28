@@ -1,0 +1,21 @@
+body{
+    background-color:royalblue ;
+    margin: 5;
+}
+h1{
+    background-color: lightblue;
+}
+pre{
+    background-color: aliceblue ;
+}
+table, th, td {
+    border: 2px solid black;
+  }
+th{
+    background-color: greenyellow;
+    color: black;
+  }
+td{
+    background-color: aquamarine;
+    color: black;
+}
